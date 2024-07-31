@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # 定义日志文件位置
-LOG_FILE="/opt/nodejs/money/log.log"
-SCRIPT_PATH="/opt/nodejs/money/index.js"
+LOG_FILE="/opt/nodejs/money-more/log.log"
+SCRIPT_PATH="/opt/nodejs/money-more/index.js"
 
 
 # 启动 Node.js 脚本
