@@ -2,7 +2,9 @@ const puppeteer = require('puppeteer');
 
 (async () => {
   // 启动浏览器
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({
+    args: ['--no-sandbox', '--disable-setuid-sandbox']
+  });
   // 打开一个新页面
   const page = await browser.newPage();
   // 导航到指定 URL
